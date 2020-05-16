@@ -24,4 +24,5 @@ RUN npm run build
 
 FROM nginx
 EXPOSE 80
+# AWS beanstalk as a bug, doesn't work with multi-stage builder step
 COPY --from=0 /app/build /usr/share/nginx/html

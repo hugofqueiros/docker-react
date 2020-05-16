@@ -19,6 +19,9 @@ function App() {
           PUMMM
         </a>
       </header>
+      <main className="App-main">
+        This is a Docker + create-react-app with continuous Integration and Deployment with Travis CI + AWS
+      </main>
     </div>
   );
 }
