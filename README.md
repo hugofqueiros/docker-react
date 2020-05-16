@@ -1,5 +1,7 @@
 # TO RUN
 
+simple as `docker-compose up`
+
 `docker build -f Dockerfile.dev .`
 
 we can remove `node_modules` from our local bc docker is going to create an image with it (we don't need to duplica dependencies)
