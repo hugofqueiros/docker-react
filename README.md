@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hugofqueiros/docker-react.svg?branch=master)](https://travis-ci.org/hugofqueiros/docker-react)
+
 # TO RUN
 
 `docker build -f Dockerfile.dev .`
